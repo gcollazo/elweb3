@@ -6880,9 +6880,40 @@ a:hover {
 }
 .post-content {
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 30px;
   margin-top: 30px;
+}
+.social-buttons-list {
+  padding: 0;
+  list-style: none;
+  margin: 30px 0;
+}
+.social-button-item {
+  display: inline-block;
+}
+.post-pagination {
+  margin-top: 30px;
+}
+.post-navigation-newer-wrapper {
+  text-align: right;
+}
+.post-navigation-link {
+  background-color: #fff;
+  color: #3f3f3f;
+  padding: 10px 15px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  border: 1px solid #bfbfbf;
+}
+.post-navigation-link:hover {
+  background-color: #3f3f3f;
+  border-color: #3f3f3f;
+  text-decoration: none;
+  color: #fff;
+}
+.post-comments-wrapper {
+  margin-top: 50px;
 }
 .footer-wrapper {
   border-top: 1px solid #e5e5e5;
