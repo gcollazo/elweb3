@@ -1,0 +1,154 @@
+@import 'nib'
+@import '_variables'
+@import '_media_queries'
+
+a
+    color linkColor
+
+    &:hover
+        color linkHoverColor
+
+.top-container
+    margin-top 50px
+
+@media xs
+    .top-container
+        margin-top 0
+
+// Sidebar
+
+.sidebar
+    border-right 1px solid lineColor
+
+.site-name
+    display inline-block
+    font-weight bold
+    font-size 25px
+    margin-left 10px
+
+.site-name-link
+    color logoColor
+
+    &:hover
+        color logoColor
+        text-decoration none
+
+.links-wrapper
+    margin-top 100px
+    padding-right 20px
+    text-align right
+
+.site-author
+    color elwebGrey
+    font-size 16px
+    font-weight bold
+
+.sidebar-links-list
+    list-style none
+    margin-top 20px
+    padding 0
+
+.sidebar-link-item
+    margin-bottom 10px
+
+.sidebar-link
+    color elwebGrey
+    font-size 16px
+
+    &:hover
+        color elwebGrey
+
+.sponsor-wrapper
+    margin-top 200px
+
+
+// Content
+
+.content
+    padding 0 50px
+
+.post-title
+    font-family contentFont
+    font-size 35px
+    line-height 42px
+
+    a
+        color black
+
+.post-metadata
+    color elwebLightGrey
+
+    a
+        color elwebLightGrey
+
+.post-content
+    font-family contentFont
+    font-size 20px
+    line-height 35px
+    margin-top 30px
+
+// Footer
+
+.footer-wrapper
+    border-top 1px solid lineColor
+    margin-top 80px
+    margin-bottom 20px
+    padding 20px 0
+
+@media xs
+    .footer-wrapper
+        margin-bottom 35px
+
+.site-name-footer
+    font-size 16px
+    display inline-block
+    margin 0 0 0 5px
+
+    a
+        color black
+        &:hover
+            text-decoration none
+
+.footer-link
+    color elwebGrey
+
+    &:hover
+        color elwebGrey
+
+.footer-links-wrapper
+    padding-left 45px
+    margin-top 8px
+
+.footer-links-list
+    padding 0
+    list-style none
+
+.footer-link-item
+    display inline-block
+    margin-right 10px
+
+.footer-creative-commons-wrapper
+    text-align right
+    margin-top 8px
+
+@media xs
+    .footer-creative-commons-wrapper
+            margin-top 6px
+
+// Mobile nav bar
+
+.mobile-nav-wrapper
+    .navbar-default
+        background-color white
+        border-left 0
+        border-right 0
+        border-top 0
+        border-bottom 1px solid lineColor
+
+    .navbar-toggle
+        margin-top 25px
+
+.navbar-sitename
+    color black
+    font-weight bold
+    margin-left 5px

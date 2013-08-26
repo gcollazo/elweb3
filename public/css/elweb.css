@@ -6803,6 +6803,151 @@ td.visible-print {
     display: none !important;
   }
 }
+a {
+  color: #21bbf9;
+}
+a:hover {
+  color: #139ad6;
+}
+.top-container {
+  margin-top: 50px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .top-container {
+    margin-top: 0;
+  }
+}
+.sidebar {
+  border-right: 1px solid #e5e5e5;
+}
+.site-name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.site-name-link {
+  color: #000;
+}
+.site-name-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.links-wrapper {
+  margin-top: 100px;
+  padding-right: 20px;
+  text-align: right;
+}
+.site-author {
+  color: #7f7f7f;
+  font-size: 16px;
+  font-weight: bold;
+}
+.sidebar-links-list {
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+.sidebar-link-item {
+  margin-bottom: 10px;
+}
+.sidebar-link {
+  color: #7f7f7f;
+  font-size: 16px;
+}
+.sidebar-link:hover {
+  color: #7f7f7f;
+}
+.sponsor-wrapper {
+  margin-top: 200px;
+}
+.content {
+  padding: 0 50px;
+}
+.post-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 35px;
+  line-height: 42px;
+}
+.post-title a {
+  color: #000;
+}
+.post-metadata {
+  color: #bfbfbf;
+}
+.post-metadata a {
+  color: #bfbfbf;
+}
+.post-content {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+.footer-wrapper {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .footer-wrapper {
+    margin-bottom: 35px;
+  }
+}
+.site-name-footer {
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+.site-name-footer a {
+  color: #000;
+}
+.site-name-footer a:hover {
+  text-decoration: none;
+}
+.footer-link {
+  color: #7f7f7f;
+}
+.footer-link:hover {
+  color: #7f7f7f;
+}
+.footer-links-wrapper {
+  padding-left: 45px;
+  margin-top: 8px;
+}
+.footer-links-list {
+  padding: 0;
+  list-style: none;
+}
+.footer-link-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-creative-commons-wrapper {
+  text-align: right;
+  margin-top: 8px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .footer-creative-commons-wrapper {
+    margin-top: 6px;
+  }
+}
+.mobile-nav-wrapper .navbar-default {
+  background-color: #fff;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.mobile-nav-wrapper .navbar-toggle {
+  margin-top: 25px;
+}
+.navbar-sitename {
+  color: #000;
+  font-weight: bold;
+  margin-left: 5px;
+}
 
 
 /*@ sourceMappingURL=elweb.css.map*/
