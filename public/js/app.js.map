@@ -1,1 +1,0 @@
-{"version":3,"file":"public/js/app.js","sources":["app/elweb.coffee"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,GAAE;CACU,EAAR,IAAO,EAAP;CADF;A","sourcesContent":["$ ->\n    console.log 'Hello World'\n"]}
