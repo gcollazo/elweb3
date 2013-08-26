@@ -8,5 +8,7 @@ exports.config =
         'js/vendor.js': /^(vendor|bower_components)/
     stylesheets:
       joinTo: 'style.css'
+      order:
+        before: ['app/styles/wpbanner.css']
     templates:
       joinTo: 'app.js'
