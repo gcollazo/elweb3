@@ -5,7 +5,7 @@
         <div class="row content-wrapper">
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-2 hidden-xs sidebar">
                 <div class="row logo-wrapper">
-                    <a href="<?php bloginfo('url'); ?>"><img src="//placehold.it/70x70" alt="<?php bloginfo('name'); ?>"></a>
+                    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo@2x.png" alt="<?php bloginfo('name');?>" height="70" width="70"></a>
                     <h1 class="site-name">
                         <a href="<?php bloginfo('url'); ?>" class="site-name-link"><?php bloginfo('name'); ?></a>
                     </h1> <!-- .site-name -->

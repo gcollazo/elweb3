@@ -1,7 +1,7 @@
             <div class="row footer-row">
                 <div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 col-sm-offset-1 col-md-offset-1 col-lg-offset-2 footer-wrapper">
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-                        <a href="<?php bloginfo('url'); ?>/"><img src="//placehold.it/35x36" alt="<?php bloginfo('name'); ?>"></a>
+                        <a href="<?php bloginfo('url'); ?>/"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="<?php bloginfo('name');?>" height="35" width="35"></a>
                         <h3 class="site-name-footer">
                             <a href="<?php bloginfo('url'); ?>/" class="site-name-footer-link"><?php bloginfo('name'); ?></a>
                         </h3>

@@ -6996,6 +6996,29 @@ a:hover {
   font-weight: bold;
   margin-left: 5px;
 }
+.page-title {
+  color: #7f7f7f;
+  margin-bottom: 30px;
+}
+.archive-post-title {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+.arhive-post-header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.arhive-post-header:nth-last-child(2) {
+  border-bottom: 0;
+}
+.search-field {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  background-color: #fafafa;
+  margin-bottom: 30px;
+}
 
 
 /*@ sourceMappingURL=style.css.map*/

@@ -64,8 +64,8 @@
 <? endif; ?>
 
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/img/apple-touch-icon.png">
     <link rel="alternate" href="<?php echo $GLOBALS['_DEFAULT_RSSFEED_URL']; ?>" type="application/rss+xml" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
@@ -87,7 +87,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="//placehold.it/50x50" alt="<?php bloginfo('name'); ?>"><span class="navbar-sitename"><?php bloginfo('name'); ?></span></a>
+                <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo@2x.png" alt="<?php bloginfo('name');?>" height="50" width="50"><span class="navbar-sitename"><?php bloginfo('name'); ?></span></a>
             </div> <!-- .navbar-header -->
             <div class="collapse navbar-collapse navbar-ex6-collapse">
                 <ul class="nav navbar-nav">
