@@ -1,10 +1,15 @@
 # elweb3
 
-A miminalist blog theme for WordPress designed for [elweb.co](http://elweb.co).
+A miminalist blog theme for WordPress designed for [elweb.co](http://elweb.co). Works on desktops, tablets and mobile.
 
 ## Screenshot
 
 ![elweb3 screenshot](screenshot.png)
+
+## Built using
+- [Bootstrap 3](http://getbootstrap.com/) - CSS Framework
+- [Brunch](http://brunch.io) - Build tool
+- [Stylus](http://learnboost.github.io/stylus/) - CSS Pre-processor
 
 ## License
 
