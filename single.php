@@ -3,21 +3,7 @@
 
     <div class="container top-container">
         <div class="row content-wrapper">
-            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 col-sm-offset-1 col-md-offset-1 col-lg-offset-2 hidden-xs sidebar">
-                <div class="row logo-wrapper">
-                    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo@2x.png" alt="<?php bloginfo('name');?>" height="70" width="70"></a>
-                    <h1 class="site-name">
-                        <a href="<?php bloginfo('url'); ?>" class="site-name-link"><?php bloginfo('name'); ?></a>
-                    </h1> <!-- .site-name -->
-                </div> <!-- .logo-wrapper -->
-                <div class="row links-wrapper">
-                    <span class="site-author">By <?php echo $GLOBALS['_DEFAULT_AUTHOR_NAME']; ?></span> <!-- .site-author -->
-                    <ul class="sidebar-links-list">
-                        <?php wp_nav_menu( array('theme_location' => 'SidebarNavigation', 'items_wrap'=> '%3$s', 'container'=> '')); ?>
-                    </ul> <!-- .sidebar-links-list -->
-                </div> <!-- .links-wrapper -->
-                <?php include_once('sponsor.php'); ?>
-            </div> <!-- .sidebar -->
+            <?php include_once('sidebar.php'); ?>
 
             <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6 content">
                 <div class="row post-header">
@@ -31,30 +17,7 @@
 
                 <?php include_once('social.php') ?>
 
-                <div class="row post-pagination">
-                    <?php
-                        $prev = get_previous_post();
-                        if($prev) {
-                            $p_link = get_permalink( $prev->ID );
-                        }
-
-                        $next = get_next_post();
-                        if($next) {
-                            $n_link =get_permalink( $next->ID );
-                        }
-                    ?>
-                    <?php if($prev): ?>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 post-navigation-older-wrapper">
-                            <a href="<?php echo $p_link; ?>" class="post-navigation-link older-link">&larr; Older</a>
-                        </div> <!-- .post-navigation-older-wrapper -->
-                    <?php endif; ?>
-
-                    <?php if($next): ?>
-                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 post-navigation-newer-wrapper">
-                            <a href="<?php echo $n_link; ?>" class="post-navigation-link newer-link">Newer &rarr;</a>
-                        </div> <!-- .post-navigation-newer-wrapper -->
-                    <?php endif; ?>
-                </div> <!-- .post-pagination -->
+                <?php include_once('pagination.php'); ?>
 
                 <div class="row post-comments-wrapper">
                     <?php comments_template(); ?>
