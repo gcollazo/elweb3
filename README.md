@@ -6,6 +6,15 @@ A miminalist blog theme for WordPress designed for [elweb.co](http://elweb.co). 
 
 ![elweb3 screenshot](screenshot.png)
 
+## Installation
+- Download the [latest release](https://github.com/gcollazo/elweb3/releases).
+- Un-zip and copy to your `wp-content/themes/` folder.
+- Edit the file `config.php`.
+- Create the required menus via the WordPress admin.
+    - Appearance > Menu
+    - Create and assign menus for **Sidebar**, **Footer** and **Mobile**.
+- Go write awesome blog posts.
+
 ## Built using
 - [Bootstrap 3](http://getbootstrap.com/) - CSS Framework
 - [Brunch](http://brunch.io) - Build tool
