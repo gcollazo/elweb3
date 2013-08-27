@@ -1,3 +1,8 @@
+<?php
+
+if (!defined('ABSPATH')) exit;
+
+?>
 <div class="row social-buttons-wrapper">
     <ul class="social-buttons-list">
         <li class="social-button-item social-button-twitter"><iframe allowtransparency="true" frameborder="0" scrolling="no" src="http://platform.twitter.com/widgets/tweet_button.1375828408.html#_=1377480731475&amp;count=horizontal&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Felweb.co%2Ffrom-dhtml-to-node-js%2F&amp;size=m&amp;text=From%20DHTML%20to%20Node.js%20%E2%80%94%20elweb&amp;url=http%3A%2F%2Felweb.co%2Ffrom-dhtml-to-node-js%2F&amp;via=gcollazo" class="twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button" data-twttr-rendered="true" style="width: 107px; height: 20px;"></iframe><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>

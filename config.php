@@ -1,5 +1,7 @@
 <?php
 
+if (!defined('ABSPATH')) exit;
+
 // Required
 $_DEFAULT_BLOG_DESCRIPTION = 'elweb personal web log of Giovanni Collazo.';
 
