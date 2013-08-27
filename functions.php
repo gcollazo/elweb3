@@ -4,9 +4,9 @@ require_once('config.php');
 
 // Register custom menus
 register_nav_menus(array(
-    'TopNavigation' => 'The top menu',
-    'BottomNavigation' => 'The bottom menu',
-    'SidebarNavigation' => 'The sidebar menu'
+    'MobileNavigation' => 'Mobile menu',
+    'FooterNavigation' => 'Footer menu',
+    'SidebarNavigation' => 'Sidebar menu'
 ));
 
 // Get First image

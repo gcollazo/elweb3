@@ -8,7 +8,7 @@
                     </div> <!-- .footer-logo-wrapper -->
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs footer-links-wrapper">
                         <ul class="footer-links-list">
-                            <?php wp_nav_menu( array('theme_location' => 'BottomNavigation', 'items_wrap'=> '%3$s', 'container'=> '')); ?>
+                            <?php wp_nav_menu( array('theme_location' => 'FooterNavigation', 'items_wrap'=> '%3$s', 'container'=> '')); ?>
                         </ul>
                     </div> <!-- .footer-links-wrapper -->
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 footer-creative-commons-wrapper">

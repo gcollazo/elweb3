@@ -91,13 +91,7 @@
             </div> <!-- .navbar-header -->
             <div class="collapse navbar-collapse navbar-ex6-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="http://elweb.co">Home</a></li>
-                    <li><a href="#">Archives</a></li>
-                    <li><a href="#">Say hello</a></li>
-                    <li><a href="#">@gcollazo</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">RSS</a></li>
+                    <?php wp_nav_menu( array('theme_location' => 'MobileNavigation', 'items_wrap'=> '%3$s', 'container'=> '')); ?>
                 </ul>
             </div><!-- .navbar-collapse -->
         </nav> <!-- .navbar-default -->
