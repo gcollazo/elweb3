@@ -49,9 +49,9 @@
 <?php if(is_home()):?>
     <meta property="og:title" content="<?php echo $GLOBALS['_DEFAULT_OG_TITLE']; ?>"/>
     <meta property="og:type" content="<?php echo $GLOBALS['_DEFAULT_OG_TYPE']; ?>"/>
-    <meta property="og:url" content="<?php echo $GLOBALS['_DEFAULT_OG_URL']; ?>"/>
-    <meta property="og:image" content="<?php echo $GLOBALS['_DEFAULT_OG_IMAGE']; ?>"/>
-    <meta property="og:site_name" content="<?php echo $GLOBALS['_DEFAULT_OG_SITENAME']; ?>"/>
+    <meta property="og:url" content="<?php bloginfo('url'); ?>"/>
+    <meta property="og:image" content="<?php bloginfo('template_directory'); ?>/img/apple-touch-icon.png"/>
+    <meta property="og:site_name" content="<?php bloginfo('name'); ?>"/>
     <meta property="fb:admins" content="<?php echo $GLOBALS['_DEFAULT_OG_ADMINS']; ?>"/>
 <? else: ?>
     <meta property="og:title" content="<?php wp_title('', 1, 'right'); ?>"/>
@@ -59,7 +59,7 @@
     <meta property="og:type" content="article"/>
     <meta property="og:url" content="<?php echo the_permalink(); ?>"/>
     <meta property="og:image" content="<?php echo catch_that_image(); ?>"/>
-    <meta property="og:site_name" content="<?php echo $GLOBALS['_DEFAULT_OG_SITENAME']; ?>"/>
+    <meta property="og:site_name" content="<?php bloginfo('name'); ?>"/>
     <meta property="fb:admins" content="<?php echo $GLOBALS['_DEFAULT_OG_ADMINS']; ?>"/>
 <? endif; ?>
 

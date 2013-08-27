@@ -3,7 +3,7 @@
 if (!defined('ABSPATH')) exit;
 
 // Required
-$_DEFAULT_BLOG_DESCRIPTION = 'elweb personal web log of Giovanni Collazo.';
+$_DEFAULT_BLOG_DESCRIPTION = 'Personal web log of Giovanni Collazo.';
 
 // Required
 $_DEFAULT_BLOG_KEYWORDS = 'elweb,el web,el web y 1337 cosas mas';
@@ -42,9 +42,6 @@ $_DEFAULT_READABILITY = 'PWjcDF2ATJzSpRHQALr9b3DK9ZYQdap3TJwybAxq';
 // https://developers.facebook.com/docs/opengraph/
 $_DEFAULT_OG_TITLE = 'elweb'; // og:title
 $_DEFAULT_OG_TYPE = 'blog'; // og:type
-$_DEFAULT_OG_URL = 'http://elweb.co'; // og:url
-$_DEFAULT_OG_IMAGE = 'http://elweb.co/apple-touch-icon.png'; // og:image
-$_DEFAULT_OG_SITENAME = 'elweb'; // og:site_name
 $_DEFAULT_OG_ADMINS = '501641940'; // og:admins
 
 ?>
