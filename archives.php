@@ -11,7 +11,7 @@ Template Name: Archives
 
             <div class="col-xs-12 col-sm-7 col-md-7 col-lg-6 content">
                 <div class="row post-header">
-                    <h2 class="page-title"><?php the_title(); ?></h2>
+                    <h2 class="page-title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
                 </div> <!-- .post-header -->
 
                 <div class="row archive-search-wrapper">
