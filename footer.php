@@ -12,7 +12,7 @@
                         </ul>
                     </div> <!-- .footer-links-wrapper -->
                     <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 footer-creative-commons-wrapper">
-                        <a href="http://creativecommons.org/licenses/by/3.0/" class="footer-link footer-creative-commons-link">Some rigth reserved</a>
+                        <a href="<?php echo $GLOBALS['_DEFAULT_COPYRIGHT_LINK']; ?>" class="footer-link footer-creative-commons-link"><?php echo $GLOBALS['_DEFAULT_COPYRIGHT_TEXT']; ?></a>
                     </div> <!-- .footer-creative-commons -->
                 </div> <!-- .footer-wrapper -->
             </div> <!-- .footer-row -->
