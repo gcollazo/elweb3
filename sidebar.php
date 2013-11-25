@@ -11,5 +11,5 @@ if (!defined('ABSPATH')) exit;
             <?php wp_nav_menu( array('theme_location' => 'SidebarNavigation', 'items_wrap'=> '%3$s', 'container'=> '')); ?>
         </ul> <!-- .sidebar-links-list -->
     </div> <!-- .links-wrapper -->
-    <?php include_once('sponsor.php'); ?>
+    <?php // include_once('sponsor.php'); ?>
 </div> <!-- .sidebar -->
