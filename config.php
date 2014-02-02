@@ -24,7 +24,7 @@ $_DEFAULT_AUTHOR_NAME = 'Giovanni Collazo';
 $_DEFAULT_FACEBOOK_APP_ID = '120724904675538';
 
 // Required
-$_DEFAULT_404_YOUTUBE_VIDEO = '//www.youtube.com/embed/nVjsGKrE6E8';
+$_DEFAULT_404_YOUTUBE_VIDEO = '//www.youtube.com/embed/gO0-uNEs_b0';
 
 // Optional
 $_DEFAULT_COPYRIGHT_LINK = 'http://creativecommons.org/licenses/by/3.0/';
